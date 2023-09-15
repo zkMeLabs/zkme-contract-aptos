@@ -1,0 +1,6 @@
+build/
+.aptos
+.env
+.idea
+.DS_Store
+.vscode

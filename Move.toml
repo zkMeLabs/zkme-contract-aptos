@@ -1,0 +1,16 @@
+[package]
+name = 'zkme'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token'
+
+
+[addresses]
+zkme='3e642b9d2845aa4efa3cdeb18acf6c7cd93112e4836a53e78f4b541e42a244b8'
